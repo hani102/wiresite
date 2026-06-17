@@ -1,0 +1,16 @@
+{
+  "name": "pakwires-website",
+  "version": "1.0.0",
+  "description": "Production-ready PakWires cable and copper wire website with contact database.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0"
+  }
+}
